@@ -1,0 +1,31 @@
+#board{
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.row::after{
+    clear: both;
+    margin: 0 auto;
+}
+
+.top{
+    border-bottom: 1px black solid;
+}
+
+.btm{
+    border-top: 1px blue solid;
+}
+
+.left{
+    border-right: 1px red solid;
+}
+
+.right{
+    border-left:1px green solid;
+}
