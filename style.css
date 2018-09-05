@@ -4,14 +4,16 @@
 }
 
 .row{
-    float: left;
     height: 100px;
-    width: 100px;
+    width: 302px;
+    clear: both;
+    margin: 0 auto;   
 }
 
-.row::after{
-    clear: both;
-    margin: 0 auto;
+.row div{
+float: left;
+width: 100px;
+height: 100px;
 }
 
 .top{
