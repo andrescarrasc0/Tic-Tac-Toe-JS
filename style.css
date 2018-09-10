@@ -8,6 +8,8 @@
     width: 302px;
     clear: both;
     margin: 0 auto;   
+    font-family: 'Gamja Flower';
+    font-size: 5em;
 }
 
 .row div{
@@ -30,4 +32,9 @@ height: 100px;
 
 .right{
     border-left:1px green solid;
+}
+
+button{
+    margin-top: 2em;
+    text-align: center;
 }
