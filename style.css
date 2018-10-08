@@ -12,6 +12,10 @@
     font-size: 5em;
 }
 
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .row div{
 float: left;
 width: 100px;
@@ -34,7 +38,13 @@ height: 100px;
     border-left:1px green solid;
 }
 
-button{
-    margin-top: 2em;
+#Results{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
+.button{
+    margin-top: 3em;
     text-align: center;
 }
